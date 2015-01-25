@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This code will invert a matrix
 
-## Write a short comment describing this function
+## On the first pass it will invert the matrix and cache the results
+## On subsequent passes it will use the cached matrix to reduce processing time
 
 makeCacheMatrix <- function(x = matrix()) {
 
